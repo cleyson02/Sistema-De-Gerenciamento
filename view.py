@@ -146,5 +146,3 @@ def remove_loan(id_reserva):
         print(f"Reserva com ID {id_reserva} não foi encontrada e não pode ser removida.")
     
     conn.close()
-
-remove_room(1)
